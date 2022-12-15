@@ -6,11 +6,13 @@
 This is a very basic model to do the coloring, the architecture is very simple as shown in the below diagram. The black and white images are in gray scales. They range from 0-225. To choose the accurate color we convert the input layer of gray scale to two layers of colored layers we use convolution layers.  
 
 Each filter can add or remove some information, the network can combine these filters or select filters to form a new image. CNNs adjust the filters to obtain better results. lot of filters are stacked to form 2 layers ‘a’ and ‘b’. Predicted values and the real values that fall under the same interval are mapped which are ranging from -1 to 1. TanH function is used for mapping. From the Gray scale input layers the outputs are mapped to these Lab color layers and they are normalized, after that the errors are calculated the network updated, the same process is repeated till the error value reduces to the max. 
+
+<img src="https://media.github.iu.edu/user/22196/files/79f67496-29e5-4f11-90a7-552184b59d22" width="700">
+
+
 # CNN with Encoder Decoder 
 
 While the model primarily constitutes an encoder and a decoder, it also comprises of an immensely powerful image classification network ‘InceptionResNetv2’ used for transfer learning. The Inception model has been trained on over a million images from the ImageNet database and helps in classifying a particular image into one of 1000 categories. The combined model, as such comprises of the Inception network, the encoder model, their merged model, and a decoder model. 
-
-<img src="https://media.github.iu.edu/user/22196/files/79f67496-29e5-4f11-90a7-552184b59d22" width="700">
 
 
 ## 2-D CNN with Encoder-Decoder Architecture
