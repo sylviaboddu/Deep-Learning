@@ -15,7 +15,7 @@ Each filter can add or remove some information, the network can combine these fi
 While the model primarily constitutes an encoder and a decoder, it also comprises of an immensely powerful image classification network ‘InceptionResNetv2’ used for transfer learning. The Inception model has been trained on over a million images from the ImageNet database and helps in classifying a particular image into one of 1000 categories. The combined model, as such comprises of the Inception network, the encoder model, their merged model, and a decoder model. 
 
 
-## 2-D CNN with Encoder-Decoder Architecture
+## AutoEncoder Architecture
 <img src="https://media.github.iu.edu/user/22196/files/4527352d-cd32-41f6-9537-610fdeb686b0" width="700">
 
 
